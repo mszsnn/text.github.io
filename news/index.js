@@ -6,6 +6,7 @@ $(function () {
     let myScroll = new IScroll('#wrapper', {
         scrollX: true,
         scrollY: false,
+        click:true
     });
 
     function render(type,repaint=true,start=0){
