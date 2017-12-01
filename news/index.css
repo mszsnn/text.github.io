@@ -1,0 +1,46 @@
+*{
+    padding:0;
+    margin:0;
+    list-style: none;
+    font-size: 16px;
+}
+section.search{
+    width:100%;
+    height:.5rem;
+    background: #D33682;
+    overflow: hidden;
+}
+section.search > input{
+    width:80%;
+    display: block;
+    margin:.1rem auto;
+    height:0.3rem;
+    border: none;
+    outline: none;
+    border-radius: .05rem;
+    box-sizing: border-box;
+    padding-left:1em;
+}
+
+#wrapper{
+    width:100%;
+    height:0.5rem;
+    overflow: hidden;
+    line-height: .5rem;
+    border-bottom:1px solid #ccc;
+}
+#scroller{
+    width:10.5rem;
+    height:100%;
+}
+#scroller li{
+    width:.7rem;
+    height: 100%;
+    text-align: center;
+    color: #000;
+    float: left;
+}
+
+#scroller li.active{
+    color: #D33682;
+}
