@@ -11,7 +11,7 @@ $(function () {
 
 
     $.ajax({
-        url:'http://api.jisuapi.com/news/channel?appkey=fe2a29e929bf5cc5',
+        url:'https://api.jisuapi.com/news/channel?appkey=fe2a29e929bf5cc5',
         dataType:'jsonp',
         success:function (res) {
             let arr=res.result;
